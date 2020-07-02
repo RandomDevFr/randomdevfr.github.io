@@ -1,10 +1,15 @@
 body {
     color: #546E7A;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
     color: #be8eff;
-    font-size: 3.75rem;
+    font-size: 3.25rem;
 }
 
 h2 {
@@ -15,7 +20,7 @@ h2 {
 }
 
 .img-bg {
-    background-image: url(dev-back.jpg);
+    background-image: url(../dev-back.jpg);
     min-height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +28,7 @@ h2 {
 
 .facette {
     box-shadow: 0 0 10px 0 #d7d7d7;
-    height: 310px;
+    height: 350px;
 }
 
 .separator {
@@ -50,3 +55,32 @@ h2 {
 .alt-background {
     background-color: #f7f7f7;
 }
+
+.random-img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+}
+
+.icon-container {
+    width: 50px;
+    font-size: 42px;
+    color: #83D6FE;
+}
+
+.random-bar {
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.random-bar img {
+    height: 45px;
+}
+
+.alt-color {
+    color: #83D6FE;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
